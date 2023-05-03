@@ -8,7 +8,8 @@ Install PostgreSQL and create db
 git clone https://git@github.com:ostapT/DRF-cinema-API.git
 cd DRF-cinema-API
 python -m venv venv
-source venv/bin/activate
+venv\Scripts\activate (on Windows)
+source venv/bin/activate (on macOS)
 pip install -r requirements.txt
 export DB_HOST=<your db hostname>
 export DB_NAME=<your db name>
